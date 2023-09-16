@@ -1,8 +1,8 @@
 def hello():
   print("Hello, user!")
 
-  def pack(a,b,c):
-    return [a,b,c]
+  def pack(clothes,shoes,hat):
+    return [clothes,shoes,hat]
   
 
 
@@ -17,8 +17,8 @@ def hello():
         print(f"Next I eat {my_lst[i]}")
 
 hello()
-print(pack("a","b","c"))
-print(pack(1,2,3))
+print(pack("clothes","shoes","hat"))
+print(pack("clothes","shoes","hat"))
 eat_lunch([])
 eat_lunch(["sandwich"])
 eat_lunch(["apple","chips","sandwich","Oreos"])
